@@ -27,7 +27,7 @@ describe('Teste o componente <PokemonDetails.js />', () => {
     expect(text).toBeInTheDocument();
   });
 
-  test('Se existe na pág uma seção com os mapas com as localizações do pokémon', () => {
+  test('Se existe na pág uma seção com os mapas das localizações do pokémon', () => {
     const { history } = renderWithRouter(<App />);
     history.push(HISTORY_PUSH);
 
